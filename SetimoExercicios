@@ -1,0 +1,73 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//1)
+
+			inteiro x
+			escreva("entre com o numero inteiro de A \n")
+			leia(x)
+			inteiro y
+			escreva("entre com o numero inteiro de B \n")
+			leia(y)
+			inteiro z = x + y
+			escreva("soma = ", z, "\n")
+
+			escreva("\n")
+			
+
+			//2)
+
+			inteiro a
+			escreva("insira a nota da primeira prova \n")
+			leia(a)
+			inteiro b
+			escreva("insira a nota da segunda prova \n")
+			leia(b)
+			inteiro c
+			escreva("insira a nota da terceira prova \n")
+			leia(c)
+			inteiro d
+			escreva("insira a nota da quarta prova \n")
+			leia(d)
+			inteiro f = a + b + c + d
+			escreva(f, "\n")
+			inteiro g = f/4
+			escreva("a média das 4 provas é = ", g, "\n")
+
+			escreva("\n")
+
+			//3)
+
+			inteiro u
+			escreva("insira o primeiro valor \n")
+			leia(u)
+			inteiro s = u * u
+			escreva("resultado u ao quadrado ", s, "\n")
+			inteiro o
+			escreva("insira o segundo valor \n")
+			leia(o)
+			inteiro t = o * o
+			escreva("resultado o ao quadrado ", t, "\n")
+			inteiro tu = s + t
+			escreva("'TU' é a soma de U ao quadrado mais O ao quadrado ", tu, "\n")
+			
+			
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
